@@ -1,3 +1,6 @@
+import Mathlib.Logic.Function.Iterate
+import Mathlib.Data.List.Basic
+
 /-!
 ---
 title: Two oscillators of the rule B37/S2378 that Conway's rule does not sustain
@@ -15,7 +18,7 @@ boards carry a margin wide enough that no phase touches the border, so each stat
 is also a statement about the pattern on the infinite plane.
 -/
 
-namespace Lax834858.Rule
+namespace Lax834858.Oscillators
 
 /-- A board: a list of rows of cells; `true` is alive. Outside the list everything is
 dead, so a pattern that never reaches the border evolves as it would on the plane. -/
@@ -85,11 +88,7 @@ def p32 : Board :=
    [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
    [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]]
 
-end Lax834858.Rule
 
-namespace Lax834858.Oscillators
-
-open Lax834858.Rule
 
 /-- Under `B37/S2378` the pattern `p10` returns to itself after ten generations. -/
 axiom p10_period : houseStep^[10] p10 = p10

@@ -11,7 +11,7 @@ set_option maxHeartbeats 2000000
 
 namespace Lax834858Proofs.Oscillators
 
-open Lax834858.Rule
+open Lax834858.Oscillators
 
 /--
 ---
