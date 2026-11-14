@@ -9,11 +9,11 @@ authors:
 identifiers:
   - type: url
     value: https://laxarchive.org/lax-834858/
-    description: Lax Lean Archive record (registered 2026-09-18; statements and kernel-checked proofs)
+    description: Lax Lean Archive record (registered 2026-11-14; statements and kernel-checked proofs)
 repository-code: https://github.com/joelcanary/lax-b37-oscillators
 url: https://laxarchive.org/lax-834858/
 license: Apache-2.0
-date-released: 2026-09-18
+date-released: 2026-11-14
 keywords:
   - Lean 4
   - Mathlib
