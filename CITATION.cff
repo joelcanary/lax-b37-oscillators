@@ -1,9 +1,21 @@
 cff-version: 1.2.0
-message: "Cite the Lax Lean Archive record, which is permanent."
+message: "Cite the Lax Lean Archive record, which is permanent: lax-834858."
 type: dataset
 title: "Two oscillators of the rule B37/S2378 that Conway's rule does not sustain"
 authors:
   - family-names: Cruz Cabrera
     given-names: Joel
     orcid: https://orcid.org/0009-0005-4048-1237
+identifiers:
+  - type: url
+    value: https://laxarchive.org/lax-834858/
+    description: Lax Lean Archive record (registered 2026-09-18; statements and kernel-checked proofs)
+repository-code: https://github.com/joelcanary/lax-b37-oscillators
+url: https://laxarchive.org/lax-834858/
 license: Apache-2.0
+date-released: 2026-09-18
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal proof
+  - Lax Lean Archive
