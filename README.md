@@ -49,6 +49,8 @@ The pins are in `manifest.yaml`; the archive's build of this commit
 ## Related
 
 - The five records and their live counts: https://kodamaseclabs.com/publications
+- The note on the rule, with the exhaustive census: doi:10.5281/zenodo.22974274 (all versions).
+- Code, data and the note's sources: https://github.com/joelcanary/life-like-rule-b37s2378
 
 ## Use of AI
 
